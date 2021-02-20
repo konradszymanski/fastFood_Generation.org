@@ -1,0 +1,91 @@
+body {
+    background-color: #623cea;
+    color: #e9f1f7;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid #e9f1f7;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+    font-size: 35px;
+    width: 80%;
+}
+
+.orderButton {
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: #e9f1f7;
+    border: 1px solid #e9f1f7;
+    border-radius: 20px;
+    margin: 30px auto 0 auto;
+    width: 90%;
+}
+
+.orderButton:hover {
+    background-color: #e9f1f7;
+    font-size: 30px;
+    color: #623cea;
+}
+
+.placeOrder:focus,
+.placeOrder:hover {
+    background-color: #623cea;
+    border: 2px solid #e9f1f7;
+    color: #e9f1f7;
+}
+
+#ordersTable {
+    color: #623CEA;
+    background-color: #D8DBE2;
+    border: 1px solid #1C0B19;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+#ordersTable tr {
+    color: #1c0b19;
+
+
+
+}
+
+#ordersTable td {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #623CEA;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #1c0b19;
+}
+
+button:hover {
+    border: 2px solid #fff;
+    background-color: #623CEA;
+    color: #fff;
+}
